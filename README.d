@@ -1,11 +1,15 @@
 # Habit Tracker
 
-A simple habit tracker application to monitor and visualize your habits using Python.
+This is a simple Python-based habit tracker application that allows users to create, manage, and track their habits over time. The app supports tracking daily and weekly habits, marking them as completed, and analyzing streaks and task completion patterns.
+
 
 ## Features
-- Track habits over time.
-- Store data in an SQLite database.
-- Visualize progress using graphs.
+- Create daily and weekly habits.
+- Mark habits as completed.
+- Track streaks for each habit.
+- Perform analytics on your habits, such as finding the longest streak or viewing missed tasks.
+- Store habit data using a simple file-based solution or SQLite database.
+- Command-line interface (CLI) for easy interaction.
 
 ## Project Structure
 - `main.py`: Entry point of the application.
@@ -21,3 +25,22 @@ A simple habit tracker application to monitor and visualize your habits using Py
 ## Requirements
 - Python 3.11
 - Libraries: SQLite3, Pandas, Matplotlib
+
+# Habit Tracker
+
+
+## Installation
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/michellebuchiokonicha/habit-tracker.git
+   cd habit-tracker
+
+python3 -m venv venv
+source venv/bin/activate
+
+pip install -r requirements.txt
+
+
+
